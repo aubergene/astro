@@ -1,5 +1,18 @@
 # @astrojs/cloudflare
 
+## 13.2.0
+
+### Minor Changes
+
+- [#16435](https://github.com/withastro/astro/pull/16435) [`c4d321b`](https://github.com/withastro/astro/commit/c4d321bb1171bcd5ebcea4e5dcdf569543faebc0) Thanks [@jamesopstad](https://github.com/jamesopstad)! - Add support for Preview deployments (currently in private beta)
+
+  Non-inheritable bindings set internally by the Cloudflare adapter are now also set in the `previews` section of the config so that they are inherited by Preview deployments.
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @astrojs/underscore-redirects@1.0.3
+
 ## 13.1.10
 
 ### Patch Changes
